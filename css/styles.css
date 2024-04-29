@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui;
+}
+
+/* make all h1 elements blue and large size 3rem */
+h1 {
+   color: blue; 
+   font-size: 3rem;
+}
+
+/*  */
+h2{
+    font-family: sans-serif;
+}
+
+.first {
+    background-color: silver;
+    color: darkred;
+}
+
+/* gives the  element rounded border with 5px padding */
+.rounded{
+    border-radius: 0.5rem;
+    padding: 5px;
+}
+
+.last {
+    text-decoration: underline;
+}
+
+.last:hover {
+    color: hotpink;
+}
+
+p{
+    font-style: italic;
+    font-family: sans-serif;
+    background-color: #e7e7e7;
+}
+
+.introduction{
+    border: 3px dashed #764a2f;   
+    background-color: white;
+}
+
+a{
+    font-style: normal;
+    color: red;
+}
+
+a:hover{
+    color: hotpink;
+    text-decoration: none;
+}
